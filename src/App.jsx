@@ -1,5 +1,4 @@
 import { useState, useMemo } from 'react';
-import Plot from 'react-plotly.js';
 import orders from './data/test_orders.json';
 import { aggregateByInfluencer, formatCurrency } from './utils/aggregation';
 import RevenueChart from './components/RevenueChart';
